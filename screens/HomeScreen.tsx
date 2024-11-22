@@ -46,6 +46,9 @@ export default function HomeScreen({navigation, route}: HomeScreenProps){
 
             <View style={styles.menuButtons}>
               <Button title='Add menu' onPress={() => navigation.navigate("AddItems")}/>
+            </View>
+            
+            <View style={styles.menuButtons}>
               <Button title='Filter menu' onPress={() => navigation.navigate("FilterItems") }/>
             </View>
       
